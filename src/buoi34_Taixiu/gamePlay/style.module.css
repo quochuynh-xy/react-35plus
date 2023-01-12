@@ -1,0 +1,24 @@
+.game {
+    background-image: url("../../../public/img/gameXucxac/bgGame.png");
+    height: 100vh;
+    font-family: "Pony";
+}
+.palace_bet {
+    background-color: #516ced;
+    border: solid 5px greenyellow;
+    color: #fff;
+    transition: 0.3s;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+.wibu {
+    color: red;
+}
+.palace_bet:hover {
+    background-color: #ed51e0;
+    box-shadow: 0 0 5px 5px #ffef5ac9;
+}
+@font-face {
+    font-family: "Pony";
+    src: url(../font/Pony.ttf);
+}
